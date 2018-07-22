@@ -35,7 +35,7 @@
 .item4 { grid-area: skaters; }
 .item5 { grid-area: bluestar; }
 
-.item1 {
+.item1, .item3, .item4 {
   background-color: white;
 }
 
