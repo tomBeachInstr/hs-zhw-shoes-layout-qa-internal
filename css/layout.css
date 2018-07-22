@@ -22,8 +22,8 @@
 /* Posititoning Classes */
 .brands_grid {
   display: grid;
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   grid-template-areas:
   'summer_grass summer_grass archive'
   'lady skaters bluestar';
@@ -35,7 +35,7 @@
 .item4 { grid-area: skaters; }
 .item5 { grid-area: bluestar; }
 
-.item1 {
+.item1, .item3, .item4 {
   background-color: white;
 }
 
