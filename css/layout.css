@@ -1,5 +1,4 @@
 /********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -8,7 +7,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -17,11 +15,65 @@
   height: 0;
   line-height: 0;
 }
-
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
+.brands_grid {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-areas:
+  'summer_grass summer_grass archive'
+  'lady skaters bluestar';
+}
+
+.item1 { grid-area: summer_grass; }
+.item2 { grid-area: archive; }
+.item3 { grid-area: lady; }
+.item4 { grid-area: skaters; }
+.item5 { grid-area: bluestar; }
+
+.item1 {
+  background-color: white;
+}
+
+.three-cols {
+  column-count: 3;
+  column-gap: 40px;
+}
 
 
+/* ======= ======= ======= ARCHIVE ======= ======= ======= */
+/* ======= ======= ======= ARCHIVE ======= ======= ======= */
+/* ======= ======= ======= ARCHIVE ======= ======= ======= */
+
+/* =======
+#summer_grass {
+  width: 104%;
+}
+#archive {
+  float: right;
+  width: 95%;
+}
+#summer_grass {
+    float: left;
+    width: 66%;
+    margin-right: 2%;
+}
+#archive {
+    float: right;
+    width: 29.333%;
+}
+#three-col {
+    clear: both;
+    margin-top: 50px;
+}
+.deal {
+    float: left;
+    width: 31.333%;
+    margin-right: 2%;
+}
+
+======= */
